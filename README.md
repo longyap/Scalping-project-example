@@ -52,48 +52,10 @@ tools/make-firefox.sh
 tools/make-chromium.sh
 ```
 
-**Tampermonkey/GreaseMonkey**
-
-Click on the Tampermonkey or Greasemonkey extension icon, click "Create a new script..." or "New user script..." and copy and paste the contents of `dist/userscript/main.js` into the script, and save the contents.
-
-**Chrome**
-
-Go to settings (`chrome://settings/` in the URL bar), click "Extensions", and activate "Developer Mode" in the top-right corner. Next, click "Load Unpacked" in the top-left corner. Then, navigate to `dist/chromium` and load the folder.
-
-**Firefox**
-
-Go to `about:debugging` in the URL bar, click "This Firefox" on the left tab, go under "Temporary Extensions", and click "Load Temporary Add-on…". Then navigate to `dist/firefox`, and load `manifest.json`.
-
-This extension will be removed every time you reset Firefox or your computer, and therefore this is *not* a recommended solution.
-
-# Settings
-
-By default, this extension/userscript updates the list of signatories daily. This may be changed under the settings menu for the extension/userscript.
-
-# Bad Faith Criticism
-
-> But what about GDPR/User Privacy?
-
-This script stores no user data on any server, only locally, and is fetched from a public list of signatories. You are free to remove your name from the RMS support letter at any time.
-
-> Won't this condone harassment?
-
-First, nothing compares to the serial harassment Richard Stallman has perpetuated over decades. But no, all it does it provide a stylesheet highlighting names on developer websites, and does not provide external contact information.
-
-> What about free speech?
-
-Free speech does not protect you from criticisms of said speech. You are not entitled to a platform.
-
-![Free Speech](https://imgs.xkcd.com/comics/free_speech.png)
-
-*From [xkcd](https://xkcd.com/1357/), shared under [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/).*
 
 # License
 
-All code is dual licensed under the Apache 2.0 license as well as the MIT license. See the LICENCE-MIT and the LICENCE-APACHE files for the licenses. All icons are shared from their [creator](https://www.iconfinder.com/kmgdesignid) under a [Creative Commons 3.0 Unported](https://creativecommons.org/licenses/by/3.0/) license.
+GPL license
 
 This project will not use a GPL license. Thanks for asking.
 
-# Contributing
-
-Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in highlight-rms-supporters by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any additional terms or conditions.
