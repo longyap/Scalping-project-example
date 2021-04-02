@@ -8,7 +8,6 @@ A cross-platform utility to highlight RMS support letter signers.
 - [Developing](#developing)
 - [Installation](#installation)
 - [Settings](#settings)
-- [Bad Faith Criticism](#bad-faith-criticism)
 - [License](#license)
 - [Contributing](#contributing)
 
@@ -57,5 +56,5 @@ tools/make-chromium.sh
 
 GPL license
 
-This project will not use a GPL license. Thanks for asking.
+
 
